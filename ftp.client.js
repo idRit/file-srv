@@ -11,7 +11,7 @@ const downloadBuffer = __dirname + "/dl/";
 const config = {
     host: "127.0.0.1",
     user: "ritwikm",
-    password: "blxgre3",
+    password: "ftp_pass",
     secure: false
 }
 
