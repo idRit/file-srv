@@ -80,7 +80,7 @@ module.exports = (app, db) => {
         }
 
         fileDataCollection.deleteOne({ filename: req.params.id });
-        let res = await ftpHelper.deleteFile(req.params.id);
+        let resp = await ftpHelper.deleteFile(req.params.id);
 
         return res.json({
             success: true,
